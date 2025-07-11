@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.logo {
+  color: #4E47FF;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4E47FF;
+  color: white;
+  border-radius: 5px;
+  border: white;
+  font-weight: 700;
+
+}
+/* Main */
+.banner{
+  background-image: url(./Assets/Hero-bg.png);
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+.hero-content h1{
+  font-size: 50px;
+}
+.hero-btn{
+  padding: 10px 40px;
+  background-color: #4E47FF;
+  color: white;
+  border-radius: 5px;
+  border: white;
+  font-weight: 700;
+  margin: 15px 0px;
+}
+.action-content{
+  padding: 50px;
+}
+.action-content h3{
+  font-size: 30px;;
+}
+.action-content p{
+  opacity: 0.5;
+}
