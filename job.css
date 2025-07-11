@@ -70,6 +70,12 @@ body {
   margin: 15px 0px;
 }
 
+.hero-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
 .action-content {
   padding: 50px 0;
   display: flex;
@@ -133,6 +139,7 @@ body {
 .success-img {
   border-radius: 30px;
 }
+
 .card-section h1 {
   font-size: 40px;
   margin: 8px 0;
@@ -151,15 +158,18 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
-.card-content h1{
- font-size: 14px;
+
+.card-content h1 {
+  font-size: 14px;
 }
-.review{
+
+.review {
   display: flex;
   align-items: center;
   gap: 14px;
   margin: 10px 0;
 }
+
 .review img {
   border-radius: 50%;
 }
