@@ -233,3 +233,46 @@ body {
   text-decoration: none;
   color: black;
 }
+
+
+/* max-sm: screen smaller than 640px */
+@media screen and (max-width: 639px) {
+  .action-content {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+  }
+
+  .action-content > h3 {
+    text-align: center;
+  }
+
+  .action-img {
+    max-width: 320px;
+  }
+
+
+  .success-img{
+    max-width: 320px;
+  }
+
+  .card{
+    flex-wrap: wrap;
+  }
+
+  #form{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form-data{
+    width: 100%;
+    padding: 10px 0px;
+  }
+}
+
+/* max-md: screen smaller than 768px */
+@media screen and (max-width: 767px) {
+  /* Your styles here */
+}
